@@ -14,8 +14,7 @@ def q2
   array2 = ["bird", "bat", "tiger"]
 
   # 以下に回答を記載
-  array1.concat array2
-  p array1
+  p array1 + array2
 
 end
 
