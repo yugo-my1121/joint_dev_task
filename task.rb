@@ -51,7 +51,14 @@ def q6
   numbers1 = [1, 2, 3, 4, 5]
 
   # 以下に回答を記載
-  numbers2 = numbers1.map!{|x| x * 10}
+  numbers2 = [0]
+  i = 0
+  while i < numbers1.length
+    numbers2[i] = numbers1[i]*10
+    i += 1
+  end
+
+
   p numbers2
 
 end
