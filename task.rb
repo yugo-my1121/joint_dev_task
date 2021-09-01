@@ -144,6 +144,8 @@ def q15
   data2 = { name: "yamada", hobby: "baseball", role: "normal" }
 
   # 以下に回答を記載
+  puts data1.key?(:age)? "OK" : "NG"
+  puts data2.key?(:age)? "OK" : "NG"
 
 end
 
@@ -156,6 +158,7 @@ def q16
   ]
 
   # 以下に回答を記載
+
 
 end
 
