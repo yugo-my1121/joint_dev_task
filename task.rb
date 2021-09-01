@@ -127,7 +127,8 @@ def q13
   update_data = { age: 32, address: "沖縄" }
 
   # 以下に回答を記載
-
+  user_data.update(update_data)
+  p user_data
 end
 
 def q14
